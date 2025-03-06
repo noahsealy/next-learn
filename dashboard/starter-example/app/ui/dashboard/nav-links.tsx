@@ -21,8 +21,6 @@ const links = [
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
 ];
 
-console.log(links);
-
 export default function NavLinks() {
   const pathname = usePathname();
   return (
